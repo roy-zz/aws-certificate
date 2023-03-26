@@ -1,4 +1,4 @@
-## 클라우드 금융 관리(Cloud Finance Management)
+## 컴퓨팅(Computing)
 
 - 최초 작성 일자: 2023-03-20
 - 수정 내역:

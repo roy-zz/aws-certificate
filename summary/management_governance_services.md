@@ -1,4 +1,4 @@
-## 분석(Analysis)
+## 관리 및 거버넌스(Management & Governance)
 
 - 최초 작성 일자: 2023-03-27
 - 수정 내역:
@@ -540,32 +540,135 @@
 
 ---
 
+### AWS Service Management Connector
 
+- **서비스 관리 도구 내에서 AWS 리소스의 프로비저닝, 관리 및 운영 작업 수행**
 
+#### 사용 이유
 
+- 기존 ITSM 도구를 사용하여 AWS 리소스의 프로비저닝, 관리 및 운영을 간소화한다.
+- AWS 환경 전체에서 리소스의 가시성과 제어를 연합한다.
+- ITSM 워크플로우로 클라우드 운영 문제를 감지하고 해결한다.
+- 클라우드 속도로 서비스 관리 프로세스를 실행한다.
 
+#### 작동 방식
 
+- AWS Service Management Connector는 기존 운영 ISTM 도구로 AWS 리소스의 클라우드 운영을 간소화한다.
+![](images/management_governanace_services/aws_service_management_connector.png)
 
+#### 사용 사례
 
+- **셀프 서비스를 활성화하여 AWS 리소스 요청**: 선별된 제품을 사용하여 ITSM 도구로 Amazon WorkSpaces, Amazon EC2, 애플리케이션 패턴 또는 AWS 계정과 같은 AWS 리소스를 요청할 수 있다.
+- **AWS 리소스 데이터 및 규정 준수 상태 보기**: 기존 자산 저장소(CMDB)에 거의 실시간으로 통합된 AWS 리소스 관계 및 규정 준수 상태를 확인한다. 하이브리드 클라우드 환경 내에서 AWS 리소스 데이터를 간소화한다.
+- **운영 문제 감지 및 대응**: 탐지, 대응, 문제 해결 및 변경 지원 프로세스를 가속화하기 위해 AWS 및 기타 운영 도구에서 엇갈리는 클라우드 작업을 제거한다.
+- **보안 인시던트 수정**: 기존 IT 환경의 결과에서 탐지된 보안 사고에 대응하고 수정한다.
 
+---
 
+### AWS Telco Network Builder
 
+- **AWS에서 통신 네트워크의 배포 및 관리 자동화**
 
+#### 사용 이유
 
+- 통신 산업 표준을 계속 사용하면서 클라우드 기반 네트워크 인프라 및 서비스의 배포를 가속화한다.
+- 네트워크 기능을 배포, 업데이터 및 업그레이드하는 단일 서비스를 사용하여 네트워크 수명 주기 관리를 간소화한다.
+- 중앙 집중식 대시보드에서 네트워크 기능과 AWS 서비스를 모니터링하고 관리한다.
 
+#### 작동 방식
 
+- 통신 서비스 공급자(CSP)는 AWS Telco Network Builder(TNB)를 사용하여 통신 산업 표준을 사용하여 네트워크 요구 사항을 정의한다.
+- AWS TNB는 요구 사항을 클라우드 아키텍처에 매핑하고 올바른 컴퓨팅, 스토리지 및 네트워킹 리소스를 자동으로 프로비저닝한다.
+- AWS TNB를 사용하여 네트워크 수명 주기를 관리하여 네트워크 기능 및 서비스를 업데이트하고 업그레이드할 수 있다.
+- AWS TNB는 중앙 집중식 대시보드를 제공하므로 한 곳에서 AWS 리소스를 모니터링하고 관리할 수 있다.
 
+![](images/management_governanace_services/aws_telco_network_builder.png)
 
+#### 사용 사례
 
+- **클라우드 기반 통신 네트워크 구축**: 통신 산업 인터페이스를 사용하여 클라우드 기반 네트워크를 배포하고 관리하는 데 드는 시간과 복잡성을 줄인다.
+- **클라우드 인프라 전체에서 네트워크 업데이트 간소화**: AWS 인프라 전체에서 네트워크 서비스의 수명 주기를 관리하고 간소화한다.
+- **통신 네트워크를 새로운 지역으로 확장**: 템플릿을 사용하여 네트워크 요구 사항을 정의한 다음 재사용하여 전 세계로 빠르고 안정적으로 확장한다.
 
+---
 
+### AWS Systems Manager
 
+- **운영 인사이트 확보 및 조치 수행**
+- **AWS, 온프레미스 및 기타 클라우드의 리소스에 대한 운영 인사이트 확보**
 
+#### 사용 이유
 
+- 클라우드, 온프레미스 및 엣지에서 가시성 및 제어를 개선한다.
+- 운영 문제의 탐지 및 해결에 소요되는 시간을 단축한다.
+- 패치, 구성 및 사용자 지정 정책에 대한 인스턴스 규정 준수를 유지한다.
+- 애플리케이션 및 리소스의 구성 및 지속적인 관리를 자동화한다.
 
+#### 작동 방식
 
+- AWS Systems Manager는 AWS, 온프레미스 및 기타 클라우드의 리소스를 위한 안전한 엔드 투 엔드 관리 솔루션이다.
 
+![](images/management_governanace_services/aws_system_manager.png)
 
+#### 사용 사례
+
+- **운영 데이터의 중앙 집중화**: Amazon CloudWatch, AWS CloudTrail 및 AWS Config와 같은 AWS 서비스와 서드 파티 도구 전체에서 실행 가능한 인사이트를 얻고 단일 콘솔에서 데이터를 집계한다.
+- **애플리케이션 문제를 자동으로 해결**: 연결된 AWS Resource Groups 전체에서 운영 데이터를 사용하여 애플리케이션을 손쉽게 관리하고 문제를 빠르게 식별한다.
+- **AWS 리소스 간소화**: AWS, 온프레미스 및 기타 클라우드 전반에 걸쳐 패칭 및 리소스 변경과 같은 프로세스를 자동화한다. 사용자에게 영향을 미치기 전에 운영 문제를 신속하게 진단하고 해결한다.
+- **보안 이벤트 해결**: 보안 및 규정 준수 프로필을 조정하고 보안 이벤트를 추후 분석하여 향후 재발을 방지한다.
+
+---
+
+### AWS Trusted Advisor
+
+- **성능 및 보안 최적화**
+- 비용 절감, 성능 향상 및 보안 강화
+- **AWS Trusted Advisor**는 AWS 모범 사례를 따르는 데 도움이 되는 권장 사항을 제공하고, 검사를 사용하여 계정을 평가한다.
+  이러한 검사는 AWS 인프라를 최적화하고 보안 및 성능을 개선하며 비용을 절감하고 서비스 할당량을 모니터링할 방법을 식별한다.
+- **AWS Basic Support** 및 AWS Developer Support 고객은 핵심 보안 검사 및 서비스 할당량에 대한 검사에 액세스할 수 있다.
+  AWS Business Support 및 AWS Enterprise Support 고객은 비용 최적화, 보안, 내결함성, 성능, 서비스 할당량을 포함한 모든 Trusted Advisor 검사에 액세스할 수 있다.
+- **AWS Trusted Advisor Priority**는 클라우드 배포를 최적화하고, 복구 능력을 향상하고, 보안 허점을 해결하는 데 가장 중요한 권장 사항에만 집중할 수 있도록 도와준다.
+
+![](images/management_governanace_services/aws_trusted_advisor_1.png)
+
+#### 사용 이유
+
+- **비용 최적화**: Trusted Advisor는 사용량, 구성 및 지출을 분석하여 비용 절감에 도움이 되는 실행 가능한 권장 사항을 제공한다.
+- **성능**: Trusted Advisor는 사용량 및 구성을 분석하여 서비스 성능 개선에 도움이 되는 실행 가능한 권장 사항을 제공한다.
+- **보안**: Trusted Advisor는 보안 전문가가 선별한 기본적인 보안 모범 사례를 제안하여 AWS 환경의 보안을 개선하는 데 도움을 줄 수 있다.
+- **내결함성**: Trusted Advisor는 서비스 안정성을 개선하는 데 도움을 줄 수 있다. 
+  예를 들어, Auto Scaling EC2 그룹, Route 53의 삭제된 상태 확인, 사용 중지된 가용 영역 및 사용 중지된 RDS 백업을 검사한다.
+- **서비스 할당량**: 서비스 할당량은 AWS 계정에서 만들 수 있는 최대 리소스의 수다. AWS는 모든 고객에게 가용성과 신뢰성이 높은 서비스를 제공하고 의도하지 않은 지출로부터 사용자를 보호하기 위해 할당량을 구현한다.
+
+#### 작동 방식
+
+![](images/management_governanace_services/aws_trusted_advisor_2.png)
+
+---
+
+### AWS Well-Architected Tool
+
+- **워크로드 검토 및 개선**
+- 모범 사례를 배우고 중욯나 설계 고려 사항을 적용
+
+#### 사용 이유
+
+- 애플리케이션 및 워크로드를 미세 조정하기 위한 아키텍처 지침, 모범 사례 활용 방법, 실행 계획을 제공받을 수 있다.
+- 강력한 API를 통해 AWS Wll-Architected 기능을 자체 아키텍처 거버넌스 프로세스, 애플리케이션, 워크플로로 확장할 수 있다.
+- 특정 시점 마일스톤을 저장하고 개선 사항을 구현하고 시간에 따른 변경 사항을 추적하여 진행 상황을 측정할 수 있다.
+- 최대 300명의 개별 IAM 사용자 또는 전체 조직과 공유할 수 있는 사용자 지정 렌즈를 통해 검토를 조정하고 협업을 개선할 수 있다.
+
+#### 작동 방식
+
+- AWS Well-Architected Tool은 아키텍처 모범 사례를 기준으로 애플리케이션 및 워크로드의 상태를 검토하고 개선 기회를 식별하며 시간대별 진행률을 추적하는 데 도움이 되도록 설계되었다.
+
+![](images/management_governanace_services/aws_well_architected_tool.png)
+
+#### 사용 사례
+
+- **워크로드 공유 및 협업**: 워크로드에서 식별된 고위험 문제(HRI)에 대해 공유 가시성을 제공하여 다른 워크로드 검토자와의 협업을 간소화한다.
+- **사용자 지정 렌즈를 사용한 맞춤형 안내**: 모범 사례와 AWS WA 모범 사례를 단일 위치에서 결합하여 전반적인 아키텍처 상태에 대한 인사이트를 얻는다.
+- **지속 가능성 목표 실현**: 워크로드를 검토하는 동안 AWS WA 지속 가능성 원칙을 사용하여 환경 영향을 최소화하기 위한 모범 사례를 배운다.
 
 ---
 
@@ -594,6 +697,7 @@
 - [AWS Proton](https://aws.amazon.com/ko/proton/?nc2=h_ql_prod_mg_pro)
 - [AWS Resilience Hub](https://aws.amazon.com/ko/resilience-hub/?nc2=h_ql_prod_mg_rh)
 - [AWS Service Catalog](https://aws.amazon.com/ko/servicecatalog/?nc2=h_ql_prod_mg_sc)
-
-
-
+- [AWS Service Management Connector](https://aws.amazon.com/ko/service-management-connector/?nc2=h_ql_prod_mg_smc)
+- [AWS Telco Network Builder](https://aws.amazon.com/ko/tnb/)
+- [AWS Systems Manager](https://aws.amazon.com/ko/systems-manager/?nc2=h_ql_prod_mg_sm)
+- [AWS Trusted Advisor](https://aws.amazon.com/ko/premiumsupport/technology/trusted-advisor/?nc2=h_ql_prod_mg_ta)

@@ -205,7 +205,7 @@
 - **AWS Snowball**: AWS Snowball은 컴퓨팅 최적화 디바이스 또는 스토리지 최적화 디바이스로 제공된다. 모든 디바이스는 극한의 조건에서 사용할 수 있고 변조 방지 기능이 포함되어 있으며 고도로 안전하다.
 - **AWS Snowmobile**: AWS Snowmobile은 극도로 많은 양의 데이터를 AWS로 이전할 때 사용되는 엑사바이트급 데이터 마이그레이션 디바이스다.
 
-![](images/migration_transmission_services/aws_snow_family.PNG)
+![](images/migration_transmission_services/aws_snow_family.png)
 
 ---
 

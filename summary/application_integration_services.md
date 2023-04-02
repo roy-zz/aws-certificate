@@ -4,6 +4,8 @@
 - 수정 내역:
   - 2023-03-17: 최초 작성
 
+---
+
 ### AWS Step Functions
 
 - **분산 애플리케이션을 위한 조정**
@@ -165,13 +167,13 @@
 - A2A는 분산된 시스템, 마이크로서비스 및 이벤트 중심의 서버리스 애플리케이션 간에 처리량이 많은 푸시 기반의 다대다 메시징을 제공한다.
 - 애플리케이션은 Amazon SQS, Amazon Kinesis Data Firehose, AWS Lambda 기타 HTTPS 엔드포인트가 포함된다.
 - A2P 기능을 사용하면 SMS 텍스트, 푸시 알림, 이메일을 통해 고객에게 메시지를 전송할 수 있다.
-- Pub/Sub
+- **Pub/Sub**
 ![](images/application_integration_services/amazon_sns_pubsub.png)
 
-- SMS
+- **SMS**
 ![](images/application_integration_services/amazon_sns_sms.png)
 
-- Mobile Push
+- **Mobile Push**
 ![](images/application_integration_services/amazon_sns_mobile.png)
 
 #### 사용 사례

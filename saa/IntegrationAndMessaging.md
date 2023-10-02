@@ -384,6 +384,8 @@
 
 ![mq-high-availability.png](images%2FIntegrationAndMessaging%2Fmq-high-availability.png)
 
+---
+
 ### 참고한 자료
 
 - https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03

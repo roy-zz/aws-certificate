@@ -108,7 +108,7 @@
 - IAM 권한 경계는 그룹이 아닌 사용자 및 역할에 대해 지원된다.
 - 관리되는 정책을 사용하여 IAM 엔티티가 얻을 수 있는 최대 권한을 설정하는 고급 기능이다.
 
-![iam-permission-boundaries-1.png](images%2FAdvencedIdentity%2Fiam-permission-boundaries.png)
+![iam-permission-boundaries-1.png](images%2FAdvencedIdentity%2Fiam-permission-boundaries-1.png)
 
 - "AWS Organizations SCP"와 조합되어 사용될 수 있다.
 
@@ -117,7 +117,7 @@
 - 대표적인 사용 사례는 아래와 같다.
   - 권한 범위 내에서 비관리자에게 책임을 위임(예: 새 IAM 사용자 생성)할 수 있다.
   - 개발자가 정책을 자체 할당하고 자체 권한을 관리할 수 있도록 허용하는 동시에 권한을 단계적으로 확대할 수 없도록 한다.(스스로 관리하도록 유도)
-  - 조직 및 SCP를 사용하는 전체 계정이 아닌 특정 사용자 한 명ㅇ르 제한하는 데 유용하다.
+  - 조직 및 SCP를 사용하는 전체 계정이 아닌 특정 사용자 한 명을 제한하는 데 유용하다.
 
 #### IAM Policy Evaluation Logic
 

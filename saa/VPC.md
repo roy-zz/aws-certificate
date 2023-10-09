@@ -232,6 +232,8 @@
 
 ![nacl-rules-each-target-subnet-cidr.png](images%2FVPC%2Fnacl-rules-each-target-subnet-cidr.png)
 
+- "Ephemeral Ports"에 대한 자세한 내용은 [여기](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html#nacl-ephemeral-ports)에서 확인하도록 한다.
+
 ---
 
 ### VPC Peering

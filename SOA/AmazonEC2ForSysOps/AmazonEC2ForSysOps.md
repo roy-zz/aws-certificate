@@ -8,7 +8,7 @@
 
 ### EC2 인스턴스 유형 변경
 
-[AmazonEC2ForSysOps.md](AmazonEC2ForSysOps.md)
+![1-ec2-changing-instance-type.png](images%2F1-ec2-changing-instance-type.png)
 
 - EBS를 지원하는 인스턴스에서만 유형을 변경할 수 있다.
   - 인스턴스를 중단(Stop) 한다.

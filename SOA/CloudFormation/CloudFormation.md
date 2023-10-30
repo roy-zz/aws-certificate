@@ -88,8 +88,8 @@
 - 여기에 두 개의 보안 그룹을 추가한다.
 - 코드 구문을 자세히 살펴보지 않고 파일의 구조 또한 추후에 살펴보도록 한다.
 
-
 - 아래는 단순히 EC2 인스턴스를 생성하는 예시이다.
+
 ```yaml
 Resources:
   MyInstance:
@@ -101,6 +101,7 @@ Resources:
 ```
 
 - 아래는 EC2 인스턴스, Elastic IP, 보안 그룹을 생성하는 예시이다.
+
 ```yaml
 Parameters:
   SecurityGroupDescription:

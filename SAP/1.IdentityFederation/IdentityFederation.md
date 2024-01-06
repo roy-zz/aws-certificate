@@ -364,9 +364,7 @@
 - Cognito가 토큰 자판기(TVM, Token Vending Machine)을 대체한다.
 
 #### Web Identity Federation - IAM Policy
-
-![21-web-identity-federation-iam-policy.png](images%2F21-web-identity-federation-iam-policy.png)
-
+-
 - Web Identity Federation으로 인증된 후 IAM 정책 변수로 사용자를 식별할 수 있다.
 
 ![21-web-identity-federation-iam-policy.png](images%2F21-web-identity-federation-iam-policy.png)

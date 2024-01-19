@@ -154,6 +154,8 @@
 - DLQ 메시지가 만료되기 전에 메시지를 처리해야 한다.
     - DLQ 메시지의 리텐션 기간을 설정하여 메시지가 처리되지 못한 이유를 찾는 것이 좋다. (예: 14일)
 
+![10-dead-letter-queue.png](images%2F10-dead-letter-queue.png)
+
 #### DLQ - Redrive to Source
 
 - DLQ에서 메시지를 소비하여 문제가 된 부분을 이해하는 데 도움이 되는 기능이다.

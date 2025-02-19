@@ -94,6 +94,90 @@
 
 ---
 
+### Nginx Pods 실행
+
+- `kubectl run nginx --image=nginx` 명령어를 입력하여 Nginx Pods를 실행시킨다.
+- 정상적으로 실행되었다는 메시지가 확인되면 `kubectl get pods` 명령어를 입력하여 실행된 Pods를 확인한다.
+
+![](images/19-run-nginx.png)
+
+- `kubectl describe pods`를 입력하여 Pods의 상세 정보를 확인할 수 있다.
+
+```shell
+Name:             nginx
+Namespace:        default
+Priority:         0
+Service Account:  default
+Node:             minikube/192.168.49.2
+Start Time:       Wed, 19 Feb 2025 14:46:33 +0900
+Labels:           run=nginx
+Annotations:      <none>
+Status:           Running
+IP:               10.244.0.3
+IPs:
+  IP:  10.244.0.3
+Containers:
+  nginx:
+    Container ID:   docker://53daa776e6792e2f4d64f69966a1cf660d289301d43c37b7ef711a42a2f58200
+    Image:          nginx
+    Image ID:       docker-pullable://nginx@sha256:91734281c0ebfc6f1aea979cffeed5079cfe786228a71cc6f1f46a228cde6e34
+    Port:           <none>
+    Host Port:      <none>
+    State:          Running
+      Started:      Wed, 19 Feb 2025 14:46:44 +0900
+    Ready:          True
+    Restart Count:  0
+    Environment:    <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-wfnbr (ro)
+Conditions:
+  Type                        Status
+  PodReadyToStartContainers   True
+  Initialized                 True
+  Ready                       True
+  ContainersReady             True
+  PodScheduled                True
+Volumes:
+  kube-api-access-wfnbr:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    ConfigMapOptional:       <nil>
+    DownwardAPI:             true
+QoS Class:                   BestEffort
+Node-Selectors:              <none>
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type    Reason     Age   From               Message
+  ----    ------     ----  ----               -------
+  Normal  Scheduled  109s  default-scheduler  Successfully assigned default/nginx to minikube
+  Normal  Pulling    109s  kubelet            Pulling image "nginx"
+  Normal  Pulled     98s   kubelet            Successfully pulled image "nginx" in 10.696s (10.696s including waiting). Image size: 197280883 bytes.
+  Normal  Created    98s   kubelet            Created container: nginx
+  Normal  Started    98s   kubelet            Started container nginx
+```
+
+- Pod의 이름: nginx
+- Pod의 네임스페이스: default
+- Pod의 현재 상태: Running (실행 중)
+- Pod의 준비 상태: True (컨테이너가 요청을 받을 준비가 되어 있음)
+- Pods의 IP: 10.244.0.3
+- Pods의 Node: minikube
+- Pods의 컨테이너 이름: nginx
+- Pods의 컨테이너 이미지: nginx
+- Pods의 컨테이너 상태: Running
+- 재시작 횟수: 0
+  
+- `kubectl get pods -o wide` 명령어를 입력하여 Pods의 상세 정보를 확인할 수 있다.
+
+```shell
+NAME    READY   STATUS    RESTARTS   AGE     IP           NODE       NOMINATED NODE   READINESS GATES
+nginx   1/1     Running   0          5m19s   10.244.0.3   minikube   <none>           <none>
+```
+
+---
+
 ### 참고한 강의
 
 - [Kubernetes for the Absolute Beginners](https://www.udemy.com/course/learn-kubernetes)

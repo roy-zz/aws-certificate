@@ -23,8 +23,6 @@
 
 #### 수동 스케줄링 방법
 
-![](images/3-manual-scheduling-3.png)
-
 - Pod 생성 시 `nodeName` 필드 설정:
   - Pod 정의 YAML 파일에서 `nodeName` 필드를 원하는 노드 이름으로 설정한다.
   - `kubectl apply -f <pod-definition.yaml>` 명령어를 사용하여 Pod를 생성하면 지정된 노드에 할당된다.

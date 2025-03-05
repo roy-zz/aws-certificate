@@ -1,4 +1,4 @@
-# Scheduling (Taint & Toleration)
+cheduling (Taint & Toleration)
 
 - 이번 장에서는 **Certified Kubernetes Administrator (CKA)** 을 준비하며 "Scheduling과 Taint & Toleration"에 대해서 알아보도록 한다.
 

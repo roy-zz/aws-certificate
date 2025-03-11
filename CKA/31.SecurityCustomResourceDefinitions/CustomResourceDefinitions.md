@@ -1,7 +1,6 @@
 # Security (Custom Resource Definitions)
 
-- 이번 장에서는 **Certified Ku
-- bernetes Administrator (CKA)** 을 준비하며 "Custom Resource Definitions(CRD)"에 대해서 자세하게 알아보도록 한다.
+- 이번 장에서는 **Certified Kubernetes Administrator (CKA)** 을 준비하며 "Custom Resource Definitions(CRD)"에 대해서 자세하게 알아보도록 한다.
 
 ---
 
